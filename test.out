@@ -1,0 +1,23 @@
+v1: [10 8 4 2 6 ]
+v1 after ascending sort: [2 4 6 8 10 ]
+v1 after descending sort: [10 8 6 4 2 ]
+v1 after in order push: [11 10 8 6 4 2 1 ]
+v1 after pop front: [10 8 6 4 2 1 ]
+v1 after pop rear: [10 8 6 4 2 ]
+v1 after pop from: [10 6 4 2 ]
+
+v2: [7 3 1 5 9 ]
+v2 after pop from: [7 3 1 5 ]
+popped value: 9
+v2 after pushing v1 to the front and pushing at location: [10 6 4 2 7 3 1 12 5 ]
+Location of value looked for: 7
+
+v3: Empty List 
+v3 after in order push: [9 ]
+
+v4: [11 25 33 47 51 ]
+
+v5: [12 14 16 18 21 3 7 ]
+v5 after pushing v3 to the rear: [12 14 16 18 21 3 7 9 ]
+v5 after descending sort: [21 18 16 14 12 9 7 3 ]
+v5 after ascending sort: [3 7 9 12 14 16 18 21 ]
