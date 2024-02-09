@@ -24,14 +24,12 @@
  */
 
 #include <iostream>
-#include <vector>
 #include <fstream>
 
 using std::cout;
 using std::cin;
 using std::string;
 using std::endl;
-using std::vector;
 using std::ifstream;
 using std::ofstream;
 
