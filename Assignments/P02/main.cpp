@@ -349,8 +349,9 @@ int main() {
       // then ask them to type a colon to see the definition of that word.
       // print the definition when they type a colon.
       else{
-        cout << "would you like to see the definition of the current word you typed?" << endl
-             << "if so, type a colon (:)." << "\n\n";
+        cout << "would you like to see the definition of the current word 
+                 you typed?" << endl << "if so, type a colon (:)." 
+                 << "\n\n";
         if((k = getch()) == 58)
              {
                cout << "The definition of " << matches[0] << " is:" << endl;
