@@ -15,10 +15,12 @@ This is done by performing a linear search on the json file to find the words th
 |   3   | json.hpp         | used for json file/object                          |
 |   4   | dictionary.json  | json file used for words                           |
 |   5   | myPartInMain     | code I added to original program                   |
+|   6   | rang.hpp         | for colored text                                   |
 
 ### Instructions
 - Before starting anything, the program does not work well on windows. Use WSL or Replit. 
-- Make sure you download the files in the table above.
+- Make sure you download the files in the table above. There's an animals.json and text files as well.
+  Those are not necessary, but you could download them as well to test with different files.
 - When running, type any word to see results.
 - If you want to see the definition of what you typed, type a semicolon (does not necessarily
   have to be a full word. Some letters like 'a' have definitions)
