@@ -1,8 +1,5 @@
  // These are the snippets of code I added to the program.
  
- 
- 
- 
  // Loads json object
   if (fileStream.is_open()) 
   {
