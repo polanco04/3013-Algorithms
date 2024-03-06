@@ -20,7 +20,7 @@ This is done by performing a linear search on the json file to find the words th
 - Before starting anything, the program does not work well on windows. Use WSL or Replit. 
 - Make sure you download the files in the table above. There's an animals.json and text files as well.
   Those are not necessary, but you could download them as well to test with different files.
-- myPartInMain is just a text file showing the code snippets I added to the program
+  myPartInMain.txt is just a text file showing the code snippets I added to the program, not necessary.
 - When running, type any word to see results.
 - If you want to see the definition of what you typed, type a semicolon (does not necessarily
   have to be a full word. Some letters like 'a' have definitions)
