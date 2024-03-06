@@ -1,0 +1,81 @@
+ // These are the snippets of code I added to the program.
+ 
+ 
+ 
+ 
+ // Loads json object
+  if (fileStream.is_open()) 
+  {
+    fileStream >> jDictionary;
+    fileStream.close();
+  } 
+  else 
+  {
+    cerr << "Failed to open file: " << filePath << endl;
+    return 1;
+  }
+
+  // print the menu for instructions on what to do
+  mainMenu.push_back("Type letters or words to find them in the dictionary.");
+  mainMenu.push_back(
+      "Hit the DEL key to erase a letter from your search string.");
+  mainMenu.push_back(
+      "When a single word is found, hit enter to see it's definition.");
+  mainMenu.push_back(
+      "If you want to stop, type a capital z.");
+	  
+  // changed this if statement so something other than letters
+  // be pressed. For example, the enter key.
+	 if ((int)k < 97 && (int)k > 64)
+	 {
+       k += 32;
+     }
+	 
+ for (int i = 0; i < matches.size(); i++) 
+   {
+        // if i == 10, then break out the loop so it only prints 10 results.
+        if(i == 10)
+        {
+          break;                 // added this so theres only 10 results printed
+        }
+        // find the substring in the substr
+        loc = matches[i].find(substr);
+        // if its found
+        if (loc != string::npos) {
+          printHighlightedSubstr(matches[i], substr, loc);
+        }
+        cout << " ";
+
+    }
+	  
+
+   // if something is typed
+      if(matches.size() != 0)
+      {
+      // if the user types something and there is only one result, 
+      // ask them if that is the word they are looking for
+      // and tell them to press enter to see the definition of that word.
+      // print the definition when they press enter.
+      if (matches.size() == 1) {
+        cout << "Is this the word you are looking for?"<< endl
+             << "If so, press enter to see the definition." << "\n\n";
+             if((k = getch()) == 10)
+             {
+               cout << "The definition of " << matches[0] << " is:" << endl;
+               cout << jDictionary[matches[0]] << endl;
+             }
+      }
+      // if there is more than one result and  the user wants to see the 
+      // definition of the word/substring they typed, 
+      // then ask them to type a colon to see the definition of that word.
+      // print the definition when they type a colon.
+      else{
+        cout << "would you like to see the definition of the current word you typed?" << endl
+             << "if so, type a colon (:)." << "\n\n";
+        if((k = getch()) == 58)
+             {
+               cout << "The definition of " << matches[0] << " is:" << endl;
+               cout << jDictionary[matches[0]] << endl;
+             }
+       } 
+      }
