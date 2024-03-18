@@ -22,7 +22,7 @@ This is done by performing a linear search on the json file to find the words th
   Those are not necessary, but you could download them as well to test with different files.
   myPartInMain.txt is just a text file showing the code snippets I added to the program, not necessary.
 - When running, type any word to see results.
-- If you want to see the definition of what you typed, type a semicolon (does not necessarily
+- If you want to see the definition of what you typed or the first result, type a semicolon (does not necessarily
   have to be a full word. Some letters like 'a' have definitions)
 - If you type a word and theres only one result, press enter to see its definition.
 - To stop the program, type a capital z.
