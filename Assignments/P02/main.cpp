@@ -350,7 +350,7 @@ int main() {
       // print the definition when they type a colon.
       else{
         cout << "would you like to see the definition of the current word 
-                 you typed?" << endl << "if so, type a colon (:)." 
+                 you typed or the first result?" << endl << "if so, type a colon (:)." 
                  << "\n\n";
         if((k = getch()) == 58)
              {
