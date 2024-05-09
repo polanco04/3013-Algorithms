@@ -11,10 +11,10 @@ This is done by performing a linear search on the json file to find the words th
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
 |   1   | [main.cpp](./main.cpp)       | Main driver of my project.                         |
-|   2   | [console.hpp](./console.hpp)      | determines if running on windows or linux          |
-|   3   | [json.hpp](./json.hpp)       | used for json file/object                          |
-|   4   | [dictionary.json](./dictionary.json)   | json file used for words                           |
-|   5   | [rang.hpp](./rang.hpp)         | for colored text                                   |
+|   2   | [console.hpp](./headers/console.hpp)      | determines if running on windows or linux          |
+|   3   | [json.hpp](./headers/json.hpp)       | used for json file/object                          |
+|   4   | [dictionary.json](./data/dictionary.json)   | json file used for words                           |
+|   5   | [rang.hpp](./headers/rang.hpp)         | for colored text                                   |
 
 ### Instructions
 - Before starting anything, the program does not work well on windows. Use WSL or Replit. 
