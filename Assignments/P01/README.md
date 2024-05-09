@@ -13,7 +13,7 @@ a certain location.
 ### Files
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | [VectorList.cpp](./P01/VectorList.cpp)        | Main driver of my project.|
+|   1   | [VectorList.cpp](./VectorList.cpp)        | Main driver of my project.|
 
 ### Instructions
 - Create multiple objects and test every operation. Or just create one and test with that.  
